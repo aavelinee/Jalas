@@ -1,0 +1,30 @@
+image: 'node:lts'
+
+cache:
+  paths:
+    - backend/services/meeting/node_modules
+
+stages:
+  - build
+  - unitTest
+  - integrationTest
+
+installDependencies:
+  stage: build
+  script:
+    - cd backend/services/meeting
+    - npm install
+
+unitTest:
+  stage: unitTest
+  script:
+    - cd backend/services/meeting
+    - npm run utest
+
+integrationTest:
+  image: 'mmdghanbari/node_mongodb'
+  stage: integrationTest
+  script:
+    - 'mongod --fork --logpath /var/log/mongodb.log'
+    - cd backend/services/meeting
+    - npm run itest

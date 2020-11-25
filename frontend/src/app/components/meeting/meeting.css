@@ -1,0 +1,87 @@
+.meeting {
+  width: calc(100% - 60px);
+  max-width: 700px;
+  background: #393e46;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  overflow: hidden;
+}
+
+.meeting-header {
+  width: 100%;
+  height: 50px;
+  background: #232931;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px 15px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.meeting-status {
+  width: 120px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #232931;
+  border-top-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.meeting-title {
+  color: #eeeeee;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.meeting-info {
+  flex: 1;
+  padding: 0 30px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-tag {
+  width: 60px;
+  height: 35px;
+  margin-left: 10px;
+  color: #232931;
+  font-size: 14px;
+  font-weight: bold;
+  background: #46b5d1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-text {
+  color: #eeeeee;
+}
+
+.meeting-actions {
+  width: 100%;
+  user-select: none;
+  -webkit-transition: height 0.4s;
+  transition: height 0.4s;
+}
+
+.meeting-actions-text {
+  font-weight: bold;
+  color: #232931;
+}

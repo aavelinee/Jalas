@@ -1,0 +1,20 @@
+.room {
+  width: 100%;
+  height: 100%;
+  background: #393e46;
+  color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.room-selected {
+  background: #9bd655;
+  color: #393e46;
+}
+
+.room-number {
+  margin-top: 5px;
+}

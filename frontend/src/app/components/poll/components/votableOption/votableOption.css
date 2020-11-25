@@ -1,0 +1,37 @@
+.vote-option {
+  width: calc(100% - 30px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #7f8691;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.vote-option-votes {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vote-option-vote {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #232931;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.vote-option-positive {
+  background: #9bd655;
+}
+
+.vote-option-negative {
+  background: #d65555;
+}

@@ -1,0 +1,11 @@
+.modal-title {
+  width: 100%;
+  padding: 20px 25px 10px;
+  box-sizing: border-box;
+  text-align: right;
+  color: #eee;
+}
+
+.modal-button-text {
+  color: #eee;
+}

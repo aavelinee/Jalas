@@ -1,0 +1,23 @@
+.app {
+  text-align: center;
+  background: #232931;
+  height: 100vh;
+  width: 100vw;
+}
+
+.body-container {
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+}
+
+.no-meetings {
+  width: 100%;
+  height: 100%;
+  color: #eeeeee8c;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
